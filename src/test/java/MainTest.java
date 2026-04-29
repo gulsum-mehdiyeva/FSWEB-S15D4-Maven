@@ -63,7 +63,7 @@ public class MainTest {
         list.add("Ali");
         list.add("Zeynep");
         list.add("Zeynep");
-        list.sort();
+        list.sortList();
         assertEquals(list.get(0), "Ali");
         assertEquals(list.get(list.size()-1), "Zeynep");
     }
